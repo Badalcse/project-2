@@ -1,0 +1,162 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px solid gray;
+    background-image: url(https://i.ytimg.com/vi/4SOA-ozgaq8/maxresdefault.jpg);
+
+}
+
+li {
+    list-style: none;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+button{
+    background-color: red;
+    padding: 4px 10px;
+    cursor: pointer;
+    color: rgb(22, 17, 17);
+    border: 1px solid #1b1010;
+    border-radius: 5px;
+    font-weight: 600px;
+    
+    
+}
+button:hover {
+    background-color: #f1f1f1;
+    color: black;
+    border: 1px solid black;
+}
+nav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+nav.logo {
+    font-weight: 1000;
+    font-size: 70px;
+}
+nav ul {
+    display:flex;
+    align-items: center;
+    gap: 40px;
+    font-weight: 500;
+}
+nav ul li:hover{
+    text-decoration: underline;
+    font-weight: 900;
+}
+.Search-box {
+    display: flex;
+    gap: 35px;
+    margin-top:20px;
+    
+}
+input{
+    padding: 4px 10px;
+}
+
+.hero-section {
+    display: flex;
+    align-items: center;
+}
+.left h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.span {
+    color: blue;
+    font-weight: 900;
+    font-size: 2.5 rem;
+
+}
+
+.left p{
+    font-weight: 500;
+}
+.p-span{
+    font-weight: 700;
+    font-size: 25px;
+    color: goldenrod;
+
+}
+.right {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+.button {
+    display: flex;
+    margin-top: 200px;
+    margin-right: 100;
+    gap: 100px;
+}
+.right {
+    height: 300px;
+    width: 300px;
+    border-radius: 0%;
+}
+footer{
+    display: flex;
+    align-items: center;
+    padding: 30px 0;
+    justify-content: space-around;
+}
+footer p {
+    font-weight: 600;
+
+
+}
+footer ul{
+    display: flex;
+    gap: 00px;
+    align-items: center;
+}
+.image{
+    height: 300px;
+    width: 300px;
+    border: 3px solid black;
+    size: 184px * 184px;
+    border-radius: 0%;
+    right: 80px;
+}
+p{
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+@media (min-width:200px){
+    body{
+        background-color: rgb(82, 9, 9);
+    }
+}
+@media (max-width:1000px){
+    body{
+        background-color: yellow;
+    }
+}
+.left{
+    margin-left:20px ;
+}
+.gap{
+    margin-top: 20px;
+}
